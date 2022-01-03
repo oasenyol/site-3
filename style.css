@@ -13,9 +13,17 @@ button {
 button {
   font-family: "Bai Jamjuree", sans-serif;
 }
+h1 {
+  color: hsl(210, 10%, 33%);
+}
+h2 {
+  font-size: 30px;
+  color: hsl(210, 10%, 33%);
+}
 p {
-  font-size: 20px;
+  font-size: 22px;
   color: hsl(201, 11%, 66%);
+  line-height: 35px;
 }
 .entry {
   background-image: url("images/bg-header-desktop.png");
@@ -36,9 +44,7 @@ p {
   width: 45%;
 }
 .entry .entry-info h1 {
-  font-weight: 600;
   font-size: 50px;
-  color: hsl(210, 10%, 33%);
 }
 .entry-buttons {
   display: flex;
@@ -71,4 +77,27 @@ p {
 .entry .entry-buttons button:hover {
   opacity: 0.7;
   cursor: pointer;
+}
+.top-info {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 150px;
+}
+.top-info h1 {
+  font-size: 40px;
+}
+.section-one {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  width: 100%;
+}
+.section-one .foto {
+  position: relative;
+  margin-left: -50px;
+  width: 50%;
+}
+.section-one .text-right {
+  width: 35%;
 }
