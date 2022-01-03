@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+a,
+button {
+  transition: 0.3s;
+}
+button {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+p {
+  font-size: 20px;
+  color: hsl(201, 11%, 66%);
+}
+.entry {
+  background-image: url("images/bg-header-desktop.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.entry .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.entry .entry-info {
+  margin: auto;
+  text-align: center;
+  width: 45%;
+}
+.entry .entry-info h1 {
+  font-weight: 600;
+  font-size: 50px;
+  color: hsl(210, 10%, 33%);
+}
+.entry-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.entry .entry-buttons .button-one {
+  padding-right: 20px;
+}
+.entry .entry-buttons .button-one button {
+  background-color: hsl(171, 66%, 44%);
+  color: #fff;
+  padding: 20px 50px 20px 50px;
+  font-size: 22px;
+  border-radius: 100px;
+  border: none;
+  border-bottom: solid hsl(171, 67%, 34%);
+}
+.entry .entry-buttons .button-two button {
+  background-color: hsl(233, 100%, 69%);
+  color: #fff;
+  padding: 20px 50px 20px 50px;
+  font-size: 22px;
+  border-radius: 100px;
+  border: none;
+  border-bottom: solid hsl(233, 67%, 59%);
+}
+.entry .entry-buttons button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
