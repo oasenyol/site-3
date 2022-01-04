@@ -159,8 +159,15 @@ footer {
   height: 100%;
   width: 100%;
 }
+.footer-container .canalize {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .footer-container li {
   list-style-type: none;
+  padding-left: 50px;
 }
 .footer-container a {
   text-decoration: none;
@@ -320,7 +327,15 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  .footer-container li {
+    list-style-type: none;
+    padding-left: 0px;
+  }
   .footer-container .canalize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
   .footer-container .canalize ul {
