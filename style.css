@@ -191,3 +191,169 @@ footer {
 .footer-container .links .instagram:hover {
   color: #8a3ab9;
 }
+@media screen and (max-width: 1270px) {
+  p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+  }
+  .entry .entry-info {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  }
+  .entry .entry-info h1 {
+    font-size: 29px;
+    width: 90%;
+    margin: auto;
+  }
+  .entry .logo {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  .entry-buttons,
+  .final-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-one {
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+  .button-one button {
+    padding: 15px 70px 15px 70px;
+    font-size: 22px;
+  }
+  .button-two button {
+    padding: 15px 70px 15px 70px;
+    font-size: 22px;
+  }
+  .top-info {
+    width: 80%;
+  }
+  .top-info h1 {
+    font-size: 27px;
+  }
+  .section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+  }
+  .section-one .foto {
+    position: relative;
+    margin-left: 0px;
+    width: 85%;
+    padding-bottom: 0px;
+  }
+  .section-one .foto img {
+    height: 100%;
+    width: 100%;
+  }
+  .section-one .text-right {
+    width: 80%;
+    text-align: center;
+  }
+  .section-one .text-right h2 {
+    padding-top: 50px;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .section-two .foto-2 {
+    width: 85%;
+    padding-top: 30px;
+  }
+  .section-two .foto-2 img {
+    height: 100%;
+    width: 100%;
+  }
+  .section-three .advice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .section-three .advice .text-advice {
+    width: 90%;
+    padding-right: 0px;
+    padding-top: 50px;
+  }
+  .logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    width: 80%;
+    margin: auto;
+  }
+  .logos img {
+    padding-top: 80px;
+  }
+  footer ul {
+    padding-inline-start: 0px;
+  }
+  footer .links {
+    padding-inline-start: 0px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .canalize {
+    text-align: center;
+  }
+  .footer-container .canalize ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+  .footer-container .footer-logo {
+    width: 20%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  .footer-container .links {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .footer-container .links a {
+    padding-left: 0px;
+  }
+  .fa-2x {
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 320px) {
+  .button-one button {
+    padding: 15px 50px 15px 50px;
+    font-size: 22px;
+  }
+  .button-two button {
+    padding: 15px 50px 15px 50px;
+    font-size: 22px;
+  }
+}
