@@ -99,8 +99,12 @@ button:hover {
   margin-left: -50px;
   width: 50%;
 }
+.section-one .foto img {
+  width: 100%;
+}
 .section-one .text-right {
   width: 35%;
+  margin-left: 50px;
 }
 .section-two {
   width: 100%;
@@ -240,14 +244,15 @@ footer {
   }
   .button-one button {
     padding: 15px 70px 15px 70px;
-    font-size: 22px;
+    font-size: 18px;
   }
   .button-two button {
     padding: 15px 70px 15px 70px;
-    font-size: 22px;
+    font-size: 18px;
   }
   .top-info {
     width: 80%;
+    padding-top: 30px;
   }
   .top-info h1 {
     font-size: 27px;
@@ -272,6 +277,7 @@ footer {
   .section-one .text-right {
     width: 80%;
     text-align: center;
+    margin-left: 0px;
   }
   .section-one .text-right h2 {
     padding-top: 50px;
@@ -315,6 +321,9 @@ footer {
   .logos img {
     padding-top: 80px;
   }
+  .final-buttons {
+    padding-bottom: 80px;
+  }
   footer ul {
     padding-inline-start: 0px;
   }
@@ -345,7 +354,6 @@ footer {
   .footer-container .footer-logo {
     width: 20%;
     padding-top: 0px;
-    padding-bottom: 30px;
   }
   .footer-container .links {
     width: 80%;
@@ -358,6 +366,9 @@ footer {
   .footer-container .links a {
     padding-left: 0px;
   }
+  .footer-container a {
+    font-size: 18px;
+  }
   .fa-2x {
     font-size: 1.3em;
   }
@@ -365,10 +376,22 @@ footer {
 @media screen and (max-width: 320px) {
   .button-one button {
     padding: 15px 50px 15px 50px;
-    font-size: 22px;
+    font-size: 18px;
   }
   .button-two button {
     padding: 15px 50px 15px 50px;
-    font-size: 22px;
+    font-size: 18px;
+  }
+  .entry .logo {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 25%;
+  }
+  .entry .logo img {
+    height: 100%;
+    width: 100%;
+  }
+  .top-info {
+    padding-top: 30px;
   }
 }
